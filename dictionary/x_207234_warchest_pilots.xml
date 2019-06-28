@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element extends="alm_asset" label="Pilots" max_length="40" name="x_207234_warchest_pilots" type="collection">
+        <element attributes="ignore_filter_on_new=true" default="javascript:global.getNextObjNumberPadded();" label="Number" max_length="40" name="number" type="string"/>
+        <element label="Pilot" max_length="32" name="pilot" reference="sys_user" reference_qual="active=true^x_207234_warchest_classification=pilot^EQ" reference_qual_condition="active=true^x_207234_warchest_classification=pilot^EQ" type="reference"/>
+        <index name="index">
+            <element name="pilot"/>
+        </index>
+    </element>
+</database>

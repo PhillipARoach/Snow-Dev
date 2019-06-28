@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_security_acl">
+    <sys_security_acl action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <admin_overrides>true</admin_overrides>
+        <advanced>false</advanced>
+        <condition/>
+        <description>Default access control on x_207234_warchest_suits</description>
+        <name>x_207234_warchest_suits</name>
+        <operation display_value="write">write</operation>
+        <script/>
+        <sys_class_name>sys_security_acl</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-06-28 21:12:52</sys_created_on>
+        <sys_id>66d3c54adb923300c45be04a4896191e</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>x_207234_warchest_suits</sys_name>
+        <sys_package display_value="Warchest" source="x_207234_warchest">e2108d42db923300c45be04a48961940</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Warchest">e2108d42db923300c45be04a48961940</sys_scope>
+        <sys_update_name>sys_security_acl_66d3c54adb923300c45be04a4896191e</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-06-28 21:12:52</sys_updated_on>
+        <type display_value="record">record</type>
+    </sys_security_acl>
+</record_update>
